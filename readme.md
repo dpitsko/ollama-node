@@ -36,7 +36,7 @@ Hostname - defaults to 127.0.0.1
 ## Set Model
 
 ```typescript
-await ollama.setModel("llama2";)
+await ollama.setModel("llama2");
 ```
 
 Sets the model to use for Generation. Unless you override anything, it will use the template, parameters, and system prompt from the Modelfile.
